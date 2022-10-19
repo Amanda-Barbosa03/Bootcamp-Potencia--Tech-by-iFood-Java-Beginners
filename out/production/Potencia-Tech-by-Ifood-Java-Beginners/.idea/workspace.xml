@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabasico/anatomiajavaetiposvariaveis/MinhaClasse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javabasico/anatomiajava/MinhaClasse.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/javabasico/identacao/BoletimEstudantil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabasico/metodos/SmartTv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabasico/metodos/Usuario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Potencia-Tech-by-Ifood-Java-Beginners.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Potencia-Tech-by-Ifood-Java-Beginners.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -42,39 +40,13 @@
     "last_opened_file_path": "C:/workspace/DIO/Potencia-Tech-by-Ifood-Java-Beginners"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MinhaClasse">
-    <configuration name="BoletimEstudantil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasico.identacao.BoletimEstudantil" />
-      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javabasico.identacao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="MinhaClasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasico.anatomiajavaetiposvariaveis.MinhaClasse" />
+      <option name="MAIN_CLASS_NAME" value="javabasico.anatomiajava.MinhaClasse" />
       <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javabasico.anatomiajavaetiposvariaveis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Usuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasico.metodos.Usuario" />
-      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javabasico.metodos.*" />
+          <option name="PATTERN" value="javabasico.anatomiajava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,8 +57,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MinhaClasse" />
-        <item itemvalue="Application.Usuario" />
-        <item itemvalue="Application.BoletimEstudantil" />
       </list>
     </recent_temporary>
   </component>
