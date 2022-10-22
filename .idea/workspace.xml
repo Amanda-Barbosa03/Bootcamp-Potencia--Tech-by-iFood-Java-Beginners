@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Programa para verificar estruturas de repetições (loops) com o uso de while e break">
+    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/javabasico/loops/Nota.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabasico/loops/NomeEIdade.java" beforeDir="false" afterPath="$PROJECT_DIR$/javabasico/loops/NomeEIdade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/anatomiajavaetiposvariaveis/MinhaClasse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/anatomiajavaetiposvariaveis/MinhaClasse.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,10 +37,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/workspace/DIO/Potencia-Tech-by-Ifood-Java-Beginners",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "Console"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NomeEIdade">
+  <component name="RunManager" selected="Application.Nota">
     <configuration name="BoletimEstudantil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javabasico.identacao.BoletimEstudantil" />
       <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
@@ -79,6 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Nota" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasico.loops.Nota" />
+      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javabasico.loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Usuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javabasico.metodos.Usuario" />
       <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
@@ -94,6 +108,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Nota" />
         <item itemvalue="Application.NomeEIdade" />
         <item itemvalue="Application.Usuario" />
         <item itemvalue="Application.MinhaClasse" />
@@ -124,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666399832795</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1666400463410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666400463410</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,7 +163,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
     <MESSAGE value="Programa para verificar estruturas de repetições (loops) com o uso de while e break" />
-    <option name="LAST_COMMIT_MESSAGE" value="Programa para verificar estruturas de repetições (loops) com o uso de while e break" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
