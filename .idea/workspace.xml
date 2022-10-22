@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/javabasico/loops/Tabuada.java" afterDir="false" />
+    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Progarma para treinar o loop for com a impressão de tabuada">
+      <change afterPath="$PROJECT_DIR$/javabasico/loops/Fatorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/loops/ParEImpar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/loops/ParEImpar.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +40,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Tabuada">
-    <configuration name="MaioreMedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasico.loops.MaioreMedia" />
+  <component name="RunManager" selected="Application.Fatorial">
+    <configuration name="Fatorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasico.loops.Fatorial" />
       <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
       <extension name="coverage">
         <pattern>
@@ -55,8 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NomeEIdade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasico.loops.NomeEIdade" />
+    <configuration name="MaioreMedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasico.loops.MaioreMedia" />
       <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fatorial" />
         <item itemvalue="Application.Tabuada" />
         <item itemvalue="Application.ParEImpar" />
         <item itemvalue="Application.MaioreMedia" />
         <item itemvalue="Application.Nota" />
-        <item itemvalue="Application.NomeEIdade" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +195,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666436827738</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update">
+      <created>1666438743385</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666438743385</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Progarma para treinar o loop for com a impressão de tabuada">
+      <created>1666438773742</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666438773742</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,7 +230,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="Programa para treinar o loop do/while com a verificação de quantidade de números impares e pares que o usuário informou." />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Progarma para treinar o loop for com a impressão de tabuada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progarma para treinar o loop for com a impressão de tabuada" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
