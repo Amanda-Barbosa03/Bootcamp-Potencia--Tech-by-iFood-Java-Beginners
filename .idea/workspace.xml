@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/javabasico/loops/NomeEIdade.java" afterDir="false" />
+    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Programa para verificar estruturas de repetições (loops) com o uso de while e break">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javabasico/loops/NomeEIdade.java" beforeDir="false" afterPath="$PROJECT_DIR$/javabasico/loops/NomeEIdade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/anatomiajavaetiposvariaveis/MinhaClasse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/anatomiajavaetiposvariaveis/MinhaClasse.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,14 +30,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/workspace/DIO/Potencia-Tech-by-Ifood-Java-Beginners&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/workspace/DIO/Potencia-Tech-by-Ifood-Java-Beginners",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.NomeEIdade">
     <configuration name="BoletimEstudantil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javabasico.identacao.BoletimEstudantil" />
@@ -92,8 +95,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.NomeEIdade" />
-        <item itemvalue="Application.MinhaClasse" />
         <item itemvalue="Application.Usuario" />
+        <item itemvalue="Application.MinhaClasse" />
         <item itemvalue="Application.BoletimEstudantil" />
       </list>
     </recent_temporary>
@@ -114,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666195236003</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Programa para verificar estruturas de repetições (loops) com o uso de while e break">
+      <created>1666399832795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666399832795</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +140,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Programa para verificar estruturas de repetições (loops) com o uso de while e break" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programa para verificar estruturas de repetições (loops) com o uso de while e break" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
