@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Programa para praticar o estruturas de repetição em array com do/while, for e foreach">
-      <change afterPath="$PROJECT_DIR$/javabasico/arrays/NumerosAleatorios.java" afterDir="false" />
+    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Programa para praticar o estruturas de repetição em array com for e classe Random">
+      <change afterPath="$PROJECT_DIR$/javabasico/arrays/ArrayMultidimensional.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +40,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NumerosAleatorios">
+  <component name="RunManager" selected="Application.ArrayMultidimensional">
+    <configuration name="ArrayMultidimensional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasico.arrays.ArrayMultidimensional" />
+      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javabasico.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Consoantes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javabasico.arrays.Consoantes" />
       <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
@@ -93,26 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tabuada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasico.loops.Tabuada" />
-      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javabasico.loops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayMultidimensional" />
         <item itemvalue="Application.NumerosAleatorios" />
         <item itemvalue="Application.Consoantes" />
         <item itemvalue="Application.OrdemInversa" />
         <item itemvalue="Application.Fatorial" />
-        <item itemvalue="Application.Tabuada" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666617738563</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Programa para praticar o estruturas de repetição em array com for e classe Random">
+      <created>1666618804788</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1666618804788</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,7 +262,8 @@
     <MESSAGE value="Programa para praticar o loop for com o cálculo de fatorial" />
     <MESSAGE value="Programa para praticar o estruturas de repetição em array com while e for" />
     <MESSAGE value="Programa para praticar o estruturas de repetição em array com do/while, for e foreach" />
-    <option name="LAST_COMMIT_MESSAGE" value="Programa para praticar o estruturas de repetição em array com do/while, for e foreach" />
+    <MESSAGE value="Programa para praticar o estruturas de repetição em array com for e classe Random" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programa para praticar o estruturas de repetição em array com for e classe Random" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
