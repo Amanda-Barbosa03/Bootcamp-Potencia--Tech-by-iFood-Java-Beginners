@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/javabasico/loops/MaioreMedia.java" afterDir="false" />
+    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Programa para praticar o loop for com o cálculo de fatorial">
+      <change afterPath="$PROJECT_DIR$/javabasico/arrays/OrdemInversa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaioreMedia">
+  <component name="RunManager" selected="Application.OrdemInversa">
+    <configuration name="Fatorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasico.loops.Fatorial" />
+      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javabasico.loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaioreMedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javabasico.loops.MaioreMedia" />
       <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
@@ -53,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinhaClasse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasico.anatomiajavaetiposvariaveis.MinhaClasse" />
+    <configuration name="OrdemInversa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasico.arrays.OrdemInversa" />
       <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javabasico.anatomiajavaetiposvariaveis.*" />
+          <option name="PATTERN" value="javabasico.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,8 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NomeEIdade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasico.loops.NomeEIdade" />
+    <configuration name="ParEImpar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasico.loops.ParEImpar" />
       <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
       <extension name="coverage">
         <pattern>
@@ -79,25 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Nota" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasico.loops.Nota" />
+    <configuration name="Tabuada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasico.loops.Tabuada" />
       <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javabasico.loops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Usuario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasico.metodos.Usuario" />
-      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javabasico.metodos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrdemInversa" />
+        <item itemvalue="Application.Fatorial" />
+        <item itemvalue="Application.Tabuada" />
+        <item itemvalue="Application.ParEImpar" />
         <item itemvalue="Application.MaioreMedia" />
-        <item itemvalue="Application.Nota" />
-        <item itemvalue="Application.NomeEIdade" />
-        <item itemvalue="Application.Usuario" />
-        <item itemvalue="Application.MinhaClasse" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +167,56 @@
       <option name="project" value="LOCAL" />
       <updated>1666434556139</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Programa para prática do loop do/while">
+      <created>1666435826556</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666435826556</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <created>1666435840326</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1666435840326</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Programa para treinar o loop do/while com a verificação de quantidade de números impares e pares que o usuário informou.">
+      <created>1666436812979</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666436812979</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Update">
+      <created>1666436827738</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666436827738</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Update">
+      <created>1666438743385</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1666438743385</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Progarma para treinar o loop for com a impressão de tabuada">
+      <created>1666438773742</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1666438773742</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Programa para praticar o loop for com o cálculo de fatorial">
+      <created>1666439832489</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1666439832489</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,11 +231,15 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Update" />
     <MESSAGE value="Programa para verificar estruturas de repetições (loops) com o uso de while e break" />
     <MESSAGE value="Programa para treinar repetição com while" />
+    <MESSAGE value="Programa para prática do loop do/while" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Programa para treinar o loop do/while com a verificação de quantidade de números impares e pares que o usuário informou." />
+    <MESSAGE value="Update" />
+    <MESSAGE value="Progarma para treinar o loop for com a impressão de tabuada" />
+    <MESSAGE value="Programa para praticar o loop for com o cálculo de fatorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programa para praticar o loop for com o cálculo de fatorial" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
