@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Desafio de código para praticar while">
-      <change afterPath="$PROJECT_DIR$/javabasico/desafios/FizzBuzz.java" afterDir="false" />
+    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Desafio de código para praticar if...else com a criação de função e uso de strings.">
+      <change afterPath="$PROJECT_DIR$/javabasico/desafios/BuscaSequencial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +41,26 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BuscaSequencial">
     <configuration name="ArrayMultidimensional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javabasico.arrays.ArrayMultidimensional" />
       <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="javabasico.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BuscaSequencial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="javabasico.desafios.BuscaSequencial" />
+      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javabasico.desafios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdemInversa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javabasico.arrays.OrdemInversa" />
-      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javabasico.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SomaMultiplos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javabasico.desafios.SomaMultiplos" />
       <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
@@ -108,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SomaMultiplos" />
+        <item itemvalue="Application.BuscaSequencial" />
         <item itemvalue="Application.ArrayMultidimensional" />
+        <item itemvalue="Application.SomaMultiplos" />
         <item itemvalue="Application.NumerosAleatorios" />
         <item itemvalue="Application.Consoantes" />
-        <item itemvalue="Application.OrdemInversa" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673198484776</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Desafio de código para praticar if...else com a criação de função e uso de strings.">
+      <created>1673312177783</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1673312177783</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,7 +288,8 @@
     <MESSAGE value="Programa para praticar o estruturas de repetição em array multidimencional com for, foreach" />
     <MESSAGE value="Desafio de código para praticar loop for" />
     <MESSAGE value="Desafio de código para praticar while" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio de código para praticar while" />
+    <MESSAGE value="Desafio de código para praticar if...else com a criação de função e uso de strings." />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio de código para praticar if...else com a criação de função e uso de strings." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
