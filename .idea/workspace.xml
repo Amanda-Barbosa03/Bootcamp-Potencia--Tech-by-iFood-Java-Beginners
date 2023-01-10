@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Programa para praticar o estruturas de repetição em array multidimencional com for, foreach">
-      <change afterPath="$PROJECT_DIR$/javabasico/desafios/SomaMultiplos.java" afterDir="false" />
+    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Desafio de código para praticar while">
+      <change afterPath="$PROJECT_DIR$/javabasico/desafios/FizzBuzz.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -41,7 +41,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SomaMultiplos">
+  <component name="RunManager">
     <configuration name="ArrayMultidimensional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="javabasico.arrays.ArrayMultidimensional" />
       <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666619592969</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Desafio de código para praticar while">
+      <created>1673198484776</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1673198484776</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,7 +279,9 @@
     <MESSAGE value="Programa para praticar o estruturas de repetição em array com do/while, for e foreach" />
     <MESSAGE value="Programa para praticar o estruturas de repetição em array com for e classe Random" />
     <MESSAGE value="Programa para praticar o estruturas de repetição em array multidimencional com for, foreach" />
-    <option name="LAST_COMMIT_MESSAGE" value="Programa para praticar o estruturas de repetição em array multidimencional com for, foreach" />
+    <MESSAGE value="Desafio de código para praticar loop for" />
+    <MESSAGE value="Desafio de código para praticar while" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio de código para praticar while" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
