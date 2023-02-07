@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Desafio de código para praticar if...else com a criação de função e uso de strings.">
-      <change afterPath="$PROJECT_DIR$/javabasico/desafios/BuscaSequencial.java" afterDir="false" />
+    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Desafio de código para praticar varredura de array e criação de função.">
+      <change afterPath="$PROJECT_DIR$/POOJava/Programação Orientada a Objetos.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/POOJava/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673312177783</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Desafio de código para praticar varredura de array e criação de função.">
+      <created>1673391661565</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1673391661565</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,7 +296,8 @@
     <MESSAGE value="Desafio de código para praticar loop for" />
     <MESSAGE value="Desafio de código para praticar while" />
     <MESSAGE value="Desafio de código para praticar if...else com a criação de função e uso de strings." />
-    <option name="LAST_COMMIT_MESSAGE" value="Desafio de código para praticar if...else com a criação de função e uso de strings." />
+    <MESSAGE value="Desafio de código para praticar varredura de array e criação de função." />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio de código para praticar varredura de array e criação de função." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
