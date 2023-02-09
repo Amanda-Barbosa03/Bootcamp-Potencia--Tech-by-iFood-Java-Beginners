@@ -1,4 +1,4 @@
-package POOJava;
+package POOJava.EsturutaBásica;
 
 public class Aplicacao {
     public static void main(String[] args) {

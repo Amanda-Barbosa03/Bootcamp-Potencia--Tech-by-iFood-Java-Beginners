@@ -1,4 +1,4 @@
-package POOJava;
+package POOJava.EsturutaBásica;
 
 public class Carro {
     String cor;

@@ -1,7 +1,7 @@
 # Programação Orientada a Objetos
 ___
 
-* Introdução:
+### INTRODUÇÃO
 
 Mentor: Thiago Leite e Carvalho
 
@@ -18,9 +18,7 @@ Baseado no livro de mesmo título escrito pelo mentor.
 
 ---
   
-### AULA 1 - Por que usar?
-
-
+### AULA 1 - POR QUE USAR POO?
 
 * Paradigma Estruturado x Paradigma Orientado à Objetos
 
@@ -143,7 +141,7 @@ class Carro {
 class Carro :
   portas = 0
 ~~~
-* EXERCÍCIO:
+* **EXERCÍCIO:**
   <br>
 ~~~java
 // JAVA - Exemplo de classe com atributo
@@ -272,7 +270,7 @@ M1 (String s, long l)
 ~~~
 
 
-* EXERCÍCIO:
+* **EXERCÍCIO**:
   <br>
 
 ~~~java
@@ -378,9 +376,119 @@ Carro.<método>
   - Representação padrão de um objeto
 <br><br>
 
-* EXERCÍCIO:
+* **EXERCÍCIO**:
   <br>
   - Criar objetos da classe "Carro" utilizando métodos set/get para definir os valores dos atributos, exibir esses <br> 
 valores "get" e passar uma mensagem para o cáculo total para encher o tanque.<br>
   - Resolução nos arquivos: "Aplicacao.java" e "Carro.java".
 
+### AULA 4 - AS RELAÇÕES: HERANÇA, ASSOCIAÇÃO E INTERFACE
+* Conceitos que ajudam a criar entidades a partir de outras entidades:
+  - Herança
+  - Associação
+  - Interface
+  <br><br>
+  * **Herança**:
+    * Relacionamento em que uma classe chamada de subclasse (classe filha, classe derivada) é uma extensão um subtipo<br>
+  de outra classe chamada de superclasse (classe pai, classe mãe, classe base). 
+    * Permite que a subclasse eaproveite os atributos e métodos da superclasse.
+    * As subclasses tamvém podem definir seus próprios membros (atributos e métodos).
+    * Códigos:
+~~~java
+// JAVA - Exemplo Herança
+class A extends B {
+  ...
+}
+~~~
+~~~ C#
+// C# - Exemplo Herança
+ class A : B {
+  ...
+ }
+~~~
+~~~ Python
+// Python - Exemplo Herança
+ class A (B) :
+  ...
+~~~
+
+* **EXERCÍCIO**
+Crie a classe "Veículo", "Carro", "Moto" e "Caminhão"
+Faça a relação de herança que julgue adequada. 
+
+~~~java
+// JAVA 
+//Criação da superclasse
+class Veiculo {
+    //Atributos e métodos
+  String cor; 
+  String modelo;
+  String placa;
+  int capacidadeTanque;
+  int quantidadeRodas;
+}
+//Criação da subclasse Carro
+class Carro extends Veiculo{
+  ...
+}
+//Criação da subclasse Moto
+class Moto extends Veiculo{
+  ...
+}
+//Criação da subclasse Caminhao
+class Caminhao extends Veiculo{
+  ...
+}
+~~~
+
+* Tipos de heranças:
+  * Herança simples (Uma classe filha possui apenas uma classe mãe)
+    * Herança multipla (Uma classe filha possui duas ou mais classes mães diferentes)
+      * Não suportada em Java e C#, apenas em C++ e Phyton
+        ~~~python
+        // PYTHON - Exemplo Herança Múltipla
+        class A (B,C) :
+          pass
+        ~~~
+* Upcast e Downcast:
+![img_1.png](img_1.png)
+  * Upcast (Implicito) - Subir a hierarquia da classe, suportada apenas para Java e C#.  
+     * Códigos:
+        ~~~java
+       // JAVA - Exemplo upcast  transformando B em A.
+       A a = new B ();
+       ~~~
+       ~~~C# 
+       // C# - Exemplo upcast transformando B em A.
+       A a = new B ();
+       ~~~
+  * Downcast (Explicito) - Descer a hierarquia da classe, suportada apenas para Java e C#. Obs.: Aconselhável <br>
+  evitar o uso pois pode dar erro de compilação.
+    * Códigos:
+          ~~~java
+         // JAVA - Exemplo Downcast  transformando A em B.
+         B b = (B) new A ();
+         ~~~
+         ~~~C# 
+         // C# - Exemplo Downcast  transformando A em B.
+         B b = (B) new A ();
+         ~~~
+* Polimorfismo:
+  * Mesma operação se comportando diferente (sempre). 
+  ![img_2.png](img_2.png)
+  * Ação de "processar" se comporta de forma diferente de acordo com o objeto em questão.
+<br><br>
+* Sobrescrita:
+  *  A mesma ação podendo se comportar diferente (talvez).
+![img_3.png](img_3.png)
+  * Entidade conta possui atributo double saldo e método de exibirSaldo(). Contas Poupança e Especial possuem  
+  rendimento ou limite, então o método é sobrescrito para realizar uma operação diferente, porém nas Contas <br> 
+  Universitária e Corrente o método se comporta igual ao da classe mãe.
+* Diferença Polimorfismo x Sobrescrita: Apesar de se assemelhar na maneira que são executados, o Polimorfismo <br>
+sempre ocorre porque a classe mãe é muito abstrata, já a sobrescrita pode acontecer o não, dependendo do contexto. 
+<br><br>
+
+* **EXERCÍCIOS:**
+- Crie as classes "Funcionario", "Gerente", "Vendedor" e "Faxineiro". Realize upcasts e downcasts.<br>
+- Análise do comportamento de Polimorfismo e Sobrescrita
+- Resolução nos arquivos: "Aplicacao.java" "Funcionario.java", "Gerente.java", "Vendedor.java" e "Faxineiro.java".
