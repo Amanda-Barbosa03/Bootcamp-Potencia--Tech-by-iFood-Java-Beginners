@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Update organização das pastas, estudos dos conceitos de Herença e criação dos arquivos &quot;Aplicacao.java&quot; &quot;Funcionario.java&quot;, &quot;Gerente.java&quot;, &quot;Vendedor.java&quot; e &quot;Faxineiro.java&quot; para prática de herança, upcast, downcast, polimorfismo e sobrescrita.">
-      <change afterPath="$PROJECT_DIR$/POOJava/Relacoes/Interface/Aplicacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POOJava/Relacoes/Interface/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POOJava/Relacoes/Interface/OperacaoMatematica.java" afterDir="false" />
+    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Reorganização dos arquivos existentes e criação dos arquivos &quot;Aplicacao.java&quot; &quot;OperacaoMatematica.java&quot; e &quot;Calculadora&quot;.java&quot; para prática de interface e sobrescrita de métodos.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POOJava/Heranca/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/POOJava/Relacoes/Heranca/Aplicacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POOJava/Heranca/Faxineiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/POOJava/Relacoes/Heranca/Faxineiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POOJava/Heranca/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/POOJava/Relacoes/Heranca/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POOJava/Heranca/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/POOJava/Relacoes/Heranca/Gerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POOJava/Heranca/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/POOJava/Relacoes/Heranca/Vendedor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/POOJava/Programação Orientada a Objetos.md" beforeDir="false" afterPath="$PROJECT_DIR$/POOJava/Programação Orientada a Objetos.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675959183599</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Reorganização dos arquivos existentes e criação dos arquivos &quot;Aplicacao.java&quot; &quot;OperacaoMatematica.java&quot; e &quot;Calculadora&quot;.java&quot; para prática de interface e sobrescrita de métodos.">
+      <created>1676287058378</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1676287058378</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,7 +328,8 @@
     <MESSAGE value="Desafio de código para praticar varredura de array e criação de função." />
     <MESSAGE value="Estudos das estruturas básicas para a POO e criação dos arquivos Carro.java e Aplicacao.java para estudo de classe, atributo, método, contructor, destructor, get and set." />
     <MESSAGE value="Update organização das pastas, estudos dos conceitos de Herença e criação dos arquivos &quot;Aplicacao.java&quot; &quot;Funcionario.java&quot;, &quot;Gerente.java&quot;, &quot;Vendedor.java&quot; e &quot;Faxineiro.java&quot; para prática de herança, upcast, downcast, polimorfismo e sobrescrita." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update organização das pastas, estudos dos conceitos de Herença e criação dos arquivos &quot;Aplicacao.java&quot; &quot;Funcionario.java&quot;, &quot;Gerente.java&quot;, &quot;Vendedor.java&quot; e &quot;Faxineiro.java&quot; para prática de herança, upcast, downcast, polimorfismo e sobrescrita." />
+    <MESSAGE value="Reorganização dos arquivos existentes e criação dos arquivos &quot;Aplicacao.java&quot; &quot;OperacaoMatematica.java&quot; e &quot;Calculadora&quot;.java&quot; para prática de interface e sobrescrita de métodos." />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganização dos arquivos existentes e criação dos arquivos &quot;Aplicacao.java&quot; &quot;OperacaoMatematica.java&quot; e &quot;Calculadora&quot;.java&quot; para prática de interface e sobrescrita de métodos." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
