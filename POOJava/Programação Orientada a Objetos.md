@@ -388,7 +388,7 @@ valores "get" e passar uma mensagem para o cáculo total para encher o tanque.<b
   - Associação
   - Interface
   <br><br>
-  * **Herança**:
+  * **HERANÇA**:
     * Relacionamento em que uma classe chamada de subclasse (classe filha, classe derivada) é uma extensão um subtipo<br>
   de outra classe chamada de superclasse (classe pai, classe mãe, classe base). 
     * Permite que a subclasse eaproveite os atributos e métodos da superclasse.
@@ -492,3 +492,85 @@ sempre ocorre porque a classe mãe é muito abstrata, já a sobrescrita pode aco
 - Crie as classes "Funcionario", "Gerente", "Vendedor" e "Faxineiro". Realize upcasts e downcasts.<br>
 - Análise do comportamento de Polimorfismo e Sobrescrita
 - Resolução nos arquivos: "Aplicacao.java" "Funcionario.java", "Gerente.java", "Vendedor.java" e "Faxineiro.java".
+
+* **ASSOCIAÇÃO**
+  * Possibilita um relacionamento entre classes/objetos
+  * Um pode pedir ajuda a outras classes/objetos para atingir seus objetivos
+  * Tipos:
+    * Estrutural(Atributos):
+      * Composição
+      * Agregação
+      * Comportamental(Métodos):
+        * Dependência
+<br><br>
+        *  **Composição**
+          * "Com parte Todo" - Exemplo: Endereço (parte) só existe por causa da Pessoa (todo).
+            * Código:
+        ~~~java
+           // JAVA - Exemplo associação estrutural composição
+           class Pessoa {
+                Endereço endereço;
+            }
+        ~~~
+        *  **Agregação**
+          * "Sem Parte Todo" - Exemplo: Aluno (parte) pode existir sem a Disciplina (todo)
+          *  Código:
+        ~~~java
+        // JAVA - Exemplo associação estrutural agregação
+        class Disciplina {
+        Aluno aluno;
+        }
+        ~~~
+        * **Agregação x Composição**
+          * Não há diferença na construção na linguagem Java porém existe uma diferença conceitual. 
+          * Na agregação há uma relação de dependência entre as entidades, já na composição, elas são independentes.
+        <br><br>
+          
+        * **Dependência**
+          * "Depende de" - Exemplo: Existe um método de  Compra (finalizar) que depende do Cupom. 
+          *  Código:
+        ~~~java
+        // JAVA - Exemplo associação comportamental dependência
+        class Compra {
+            ...
+            finalizar (Cupom cupom, ...){
+            ...
+            }
+        }
+        ~~~
+        
+        * **Herança x Associação**
+          * Herança possui uma relação um pouco mais rígida feita no desenvolvimento da aplicação (extends), não pode ser alterada. 
+            * Dica de uso: Questionar "A classeA é um tipo da classeB?" 
+          * Associação traz uam relação mais flexível, é possível alterar durante a execução (atributos ou métodos).
+            * Dica de uso: Questionar "A classeA utiliza algo da classeB?"
+<br><br>
+* **INTERFACE**
+  * Quando uma interface implementa uma interface, ela se compromete a realizar todos os comportamentos que a interface<br>
+  disponibiliza (Java e C#, não disponível para python).
+  * Declara apenas a assinatura do método. 
+  * Pode apresentar um método padrão com "default".
+    *  Código:
+       ~~~java
+       // JAVA - Exemplo associação comportamental dependência
+       interface A {
+         ...
+       }
+        
+       class B implements A {
+         ...
+       }
+       ~~~
+<br><br>
+* **EXEMPLO PRÁTICO (arquivos: "Calculadora.java" e "Operacoes.java"):**
+- Crie uma interface chamada "OperacaoMatematica". 
+- Crie também 4 métodos das operações básicas: soma, subtração, multiplicação e divisão. 
+- Tente não implementar algum método e veja o que acontece.
+<br><br>
+* Conceitos a serem explorados:
+  - Características das assoçiações
+  - Métodos abstratos
+  - Características das associações 
+  - Palavras coringas: super (Java), base (C#) e super() (Python)
+  - Relações entre classes e interface: extends e implements
+    <br><br>

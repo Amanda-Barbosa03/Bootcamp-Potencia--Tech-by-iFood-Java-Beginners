@@ -1,4 +1,4 @@
-package POOJava.Heranca;
+package POOJava.Relacoes.Heranca;
 
 public class Gerente extends Funcionario {
 
