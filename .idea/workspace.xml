@@ -4,9 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Reorganização dos arquivos existentes e criação dos arquivos &quot;Aplicacao.java&quot; &quot;OperacaoMatematica.java&quot; e &quot;Calculadora&quot;.java&quot; para prática de interface e sobrescrita de métodos.">
+    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Update anotações de aula">
+      <change afterPath="$PROJECT_DIR$/Collections/Colletions.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/list/ExemploList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/list/ExemploOrdenacaoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/list/ExercicioNotasLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/list/ExercicioPerguntasCrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/list/ExercicioTemperaturaMedia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/set/ExemploOrdenacaoSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/set/ExemploSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/set/ExercicioArcoIris.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Collections/set/Serie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POOJava/Programação Orientada a Objetos.md" beforeDir="false" afterPath="$PROJECT_DIR$/POOJava/Programação Orientada a Objetos.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,16 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/workspace/DIO/Potencia-Tech-by-Ifood-Java-Beginners&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/workspace/DIO/Potencia-Tech-by-Ifood-Java-Beginners/Collections",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "Console"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\DIO\Potencia-Tech-by-Ifood-Java-Beginners\Collections" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="POOJava.EsturutaBásica.Aplicacao" />
@@ -295,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676287058378</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Update anotações de aula">
+      <created>1676326620732</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1676326620732</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -329,7 +351,8 @@
     <MESSAGE value="Estudos das estruturas básicas para a POO e criação dos arquivos Carro.java e Aplicacao.java para estudo de classe, atributo, método, contructor, destructor, get and set." />
     <MESSAGE value="Update organização das pastas, estudos dos conceitos de Herença e criação dos arquivos &quot;Aplicacao.java&quot; &quot;Funcionario.java&quot;, &quot;Gerente.java&quot;, &quot;Vendedor.java&quot; e &quot;Faxineiro.java&quot; para prática de herança, upcast, downcast, polimorfismo e sobrescrita." />
     <MESSAGE value="Reorganização dos arquivos existentes e criação dos arquivos &quot;Aplicacao.java&quot; &quot;OperacaoMatematica.java&quot; e &quot;Calculadora&quot;.java&quot; para prática de interface e sobrescrita de métodos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganização dos arquivos existentes e criação dos arquivos &quot;Aplicacao.java&quot; &quot;OperacaoMatematica.java&quot; e &quot;Calculadora&quot;.java&quot; para prática de interface e sobrescrita de métodos." />
+    <MESSAGE value="Update anotações de aula" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update anotações de aula" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
