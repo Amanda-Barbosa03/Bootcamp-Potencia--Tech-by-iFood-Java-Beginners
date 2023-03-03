@@ -4,18 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Update organização das pastas, estudos dos conceitos de Herença e criação dos arquivos &quot;Aplicacao.java&quot; &quot;Funcionario.java&quot;, &quot;Gerente.java&quot;, &quot;Vendedor.java&quot; e &quot;Faxineiro.java&quot; para prática de herança, upcast, downcast, polimorfismo e sobrescrita.">
-      <change afterPath="$PROJECT_DIR$/POOJava/Relacoes/Interface/Aplicacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POOJava/Relacoes/Interface/Calculadora.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/POOJava/Relacoes/Interface/OperacaoMatematica.java" afterDir="false" />
+    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Update anotações de aula">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POOJava/Heranca/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/POOJava/Relacoes/Heranca/Aplicacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POOJava/Heranca/Faxineiro.java" beforeDir="false" afterPath="$PROJECT_DIR$/POOJava/Relacoes/Heranca/Faxineiro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POOJava/Heranca/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/POOJava/Relacoes/Heranca/Funcionario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POOJava/Heranca/Gerente.java" beforeDir="false" afterPath="$PROJECT_DIR$/POOJava/Relacoes/Heranca/Gerente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POOJava/Heranca/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/POOJava/Relacoes/Heranca/Vendedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collections/Colletions.md" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/Colletions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collections/list/ExemploList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/list/ExemploList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/POOJava/Programação Orientada a Objetos.md" beforeDir="false" afterPath="$PROJECT_DIR$/POOJava/Programação Orientada a Objetos.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/EsturutaBásica/Aplicacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/EsturutaBásica/Aplicacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/EsturutaBásica/Carro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/EsturutaBásica/Carro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Programação Orientada a Objetos.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Programação Orientada a Objetos.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Relacoes/Heranca/Aplicacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Relacoes/Heranca/Aplicacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Relacoes/Heranca/Faxineiro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Relacoes/Heranca/Faxineiro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Relacoes/Heranca/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Relacoes/Heranca/Funcionario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Relacoes/Heranca/Gerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Relacoes/Heranca/Gerente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Relacoes/Heranca/Vendedor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Relacoes/Heranca/Vendedor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Relacoes/Interface/Aplicacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Relacoes/Interface/Aplicacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Relacoes/Interface/Calculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/POOJava/Relacoes/Interface/Calculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/anatomiajavaetiposvariaveis/MinhaClasse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/anatomiajavaetiposvariaveis/MinhaClasse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/arrays/ArrayMultidimensional.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/arrays/ArrayMultidimensional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/arrays/Consoantes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/arrays/Consoantes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/arrays/NumerosAleatorios.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/arrays/NumerosAleatorios.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/arrays/OrdemInversa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/arrays/OrdemInversa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/desafios/BuscaSequencial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/desafios/BuscaSequencial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/desafios/FizzBuzz.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/desafios/FizzBuzz.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/desafios/SomaMultiplos.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/desafios/SomaMultiplos.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/identacao/BoletimEstudantil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/identacao/BoletimEstudantil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/loops/Fatorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/loops/Fatorial.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/loops/MaioreMedia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/loops/MaioreMedia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/loops/NomeEIdade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/loops/NomeEIdade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/loops/Nota.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/loops/Nota.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/loops/ParEImpar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/loops/ParEImpar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/loops/Tabuada.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/loops/Tabuada.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/metodos/SmartTv.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/metodos/SmartTv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/metodos/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/javabasico/metodos/Usuario.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +67,17 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/workspace/DIO/Potencia-Tech-by-Ifood-Java-Beginners&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/workspace/DIO/Potencia-Tech-by-Ifood-Java-Beginners/Collections&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Aplicacao">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\DIO\Potencia-Tech-by-Ifood-Java-Beginners\Collections" />
+    </key>
+  </component>
+  <component name="RunManager">
     <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="POOJava.EsturutaBásica.Aplicacao" />
       <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
@@ -297,7 +323,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675959183599</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Reorganização dos arquivos existentes e criação dos arquivos &quot;Aplicacao.java&quot; &quot;OperacaoMatematica.java&quot; e &quot;Calculadora&quot;.java&quot; para prática de interface e sobrescrita de métodos.">
+      <created>1676287058378</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1676287058378</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Update anotações de aula">
+      <created>1676326620732</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1676326620732</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,7 +370,9 @@
     <MESSAGE value="Desafio de código para praticar varredura de array e criação de função." />
     <MESSAGE value="Estudos das estruturas básicas para a POO e criação dos arquivos Carro.java e Aplicacao.java para estudo de classe, atributo, método, contructor, destructor, get and set." />
     <MESSAGE value="Update organização das pastas, estudos dos conceitos de Herença e criação dos arquivos &quot;Aplicacao.java&quot; &quot;Funcionario.java&quot;, &quot;Gerente.java&quot;, &quot;Vendedor.java&quot; e &quot;Faxineiro.java&quot; para prática de herança, upcast, downcast, polimorfismo e sobrescrita." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update organização das pastas, estudos dos conceitos de Herença e criação dos arquivos &quot;Aplicacao.java&quot; &quot;Funcionario.java&quot;, &quot;Gerente.java&quot;, &quot;Vendedor.java&quot; e &quot;Faxineiro.java&quot; para prática de herança, upcast, downcast, polimorfismo e sobrescrita." />
+    <MESSAGE value="Reorganização dos arquivos existentes e criação dos arquivos &quot;Aplicacao.java&quot; &quot;OperacaoMatematica.java&quot; e &quot;Calculadora&quot;.java&quot; para prática de interface e sobrescrita de métodos." />
+    <MESSAGE value="Update anotações de aula" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update anotações de aula" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

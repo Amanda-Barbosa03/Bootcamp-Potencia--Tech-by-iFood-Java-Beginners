@@ -39,7 +39,7 @@ class Serie implements Comparable<Serie> {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        collections.set.Serie serie = (collections.set.Serie) o;
+        Collections.set.Serie serie = (Collections.set.Serie) o;
         return nome.equals(serie.nome) && genero.equals(serie.genero) && tempoEpisodio.equals(serie.tempoEpisodio);
         }
 

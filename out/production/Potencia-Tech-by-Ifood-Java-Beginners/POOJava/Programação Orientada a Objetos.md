@@ -391,8 +391,8 @@ valores "get" e passar uma mensagem para o cáculo total para encher o tanque.<b
   * **HERANÇA**:
     * Relacionamento em que uma classe chamada de subclasse (classe filha, classe derivada) é uma extensão um subtipo<br>
   de outra classe chamada de superclasse (classe pai, classe mãe, classe base). 
-    * Permite que a subclasse eaproveite os atributos e métodos da superclasse.
-    * As subclasses tamvém podem definir seus próprios membros (atributos e métodos).
+    * Permite que a subclasse reaproveite os atributos e métodos da superclasse.
+    * As subclasses também podem definir seus próprios membros (atributos e métodos).
     * Códigos:
 ~~~java
 // JAVA - Exemplo Herança
@@ -574,3 +574,98 @@ sempre ocorre porque a classe mãe é muito abstrata, já a sobrescrita pode aco
   - Palavras coringas: super (Java), base (C#) e super() (Python)
   - Relações entre classes e interface: extends e implements
     <br><br>
+
+### AULA 5 - A ORGANIZAÇÃO DE PACOTES E VISIBILIDADE
+
+* **PACOTES:**
+  * Organização física (pastas e subpastas) ou lógica para separar classes com responsabilidades distintas.
+  * Facilitar a identificação da funcionalidade de cada entidade/classe. 
+  *  Código:
+       ~~~java
+       // JAVA - Exemplo de criação e importação de pacote
+       package ...; //Cria a pasta
+       import ...; //Torna visível, possibilita utilizar recursos de classes de outros pacotes.
+       ~~~
+     ~~~C#
+       // C# - Exemplo de criação e importação de pacote
+       namespace {...} //Cria a pasta
+       using ...; //Torna visível, possibilita utilizar recursos de classes de outros pacotes.
+       ~~~
+     ~~~python
+       // PYTHON - Exemplo de criação e importação de pacote
+       __init__.py(2.x)
+       from ...
+       import...
+       ~~~
+* **VISIBILIDADES:**
+  * Modificadores de acesso que determinam até que ponto uma classe, atributo ou método pode ser usado. 
+    * Tipos:
+      * Private
+      * Protected
+      * Public
+    
+* PRIVATE:
+  * Mais restritiva
+  * Visivel apenas dentro da classe em que foi criada
+  * Código
+  ~~~java
+       // JAVA - Exemplo de visibilidade
+        private
+       
+        private int i;
+        private void do ();
+  ~~~
+     ~~~C#
+       // C# - Exemplo de visibilidade
+       private
+       
+        private int i;
+        private void Do ();
+     ~~~
+
+* PROTECTED:
+  * Visivel dentro da classe em que foi criada, em ooooutras classes do mesmo pacote e subclasses
+  * Código
+  ~~~java
+       // JAVA - Exemplo de visibilidade
+        protected
+       
+        protected int i;
+        protected void do ();
+  ~~~
+     ~~~C#
+       // C# - Exemplo de visibilidade
+       protected
+       
+        protected int i;
+        protected void Do ();
+     ~~~
+
+* PLUBIC:
+  * Visivel em qualuqer lugar
+  * Código
+  ~~~java
+       // JAVA - Exemplo de visibilidade
+        public 
+       
+        public  int i;
+        public  void do ();
+  ~~~
+     ~~~C#
+       // C# - Exemplo de visibilidade
+       public 
+       
+        public  int i;
+        public  void Do ();
+     ~~~
+ * QUAL USAR?
+   * Para proteção de dados e atributos, utiliza-se private. 
+   * Para uso na aplicação, os métodos podem ser protected ou public. 
+   Obs.: Importante praicar e estudar as melhores práticas.
+   * 
+### AULA 6 - PROXIMOS PASSOS
+- Entender padrões de Projeto (Design Patterns)
+- Boas práticas: SOLID, código, técnicas de programação
+- Refatoração
+- UML
+- Frameworks

@@ -46,14 +46,14 @@ List, Set e Map. Além de aprender sobre Stream API e como ela pode ajudar na ma
 	
 * ArrayList x LinkedList : ArrayList deve ser usado onde mais operações de pesquisa são necessárias e LinkedList deve ser usado onde mais operações de inserção e exclusão são necessárias. <br>
 OBS.: Em caso de dúvida, utilize o ArrayList. 
-	
-<br><br>
-* Formas de iniciar um List:
 
-~~~java
-// Criação de List
-List 
+<br>
+* Formas de iniciar um List, incluir elementos (add(), add(int i, Double e;), imprimir a list, métodos indexOf(),
+contains(), get(), Collections.min(), Collections.max() - Arquivo "ExemploList.java"
 ~~~
+
+
+
   
 
 

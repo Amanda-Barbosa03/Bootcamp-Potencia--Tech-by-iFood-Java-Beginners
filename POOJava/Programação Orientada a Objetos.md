@@ -391,8 +391,8 @@ valores "get" e passar uma mensagem para o cáculo total para encher o tanque.<b
   * **HERANÇA**:
     * Relacionamento em que uma classe chamada de subclasse (classe filha, classe derivada) é uma extensão um subtipo<br>
   de outra classe chamada de superclasse (classe pai, classe mãe, classe base). 
-    * Permite que a subclasse eaproveite os atributos e métodos da superclasse.
-    * As subclasses tamvém podem definir seus próprios membros (atributos e métodos).
+    * Permite que a subclasse reaproveite os atributos e métodos da superclasse.
+    * As subclasses também podem definir seus próprios membros (atributos e métodos).
     * Códigos:
 ~~~java
 // JAVA - Exemplo Herança
