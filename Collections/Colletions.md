@@ -28,8 +28,8 @@ List, Set e Map. Além de aprender sobre Stream API e como ela pode ajudar na ma
   * Implementação ou Classes: são as materializações, a codificação das interfaces. 
   * Algoritmos: é uma sequencia lógica, finita e definida de instruções que devem ser seguidas para resolver um problema. 
 <br><br>
-  * Hierarquia Collections:
-![img_2.png](img_2.png)
+  * Hierarquia Collections:<br>
+![hierarquia.png](hierarquia.png)
 
 ##### AULA 1 - LISTS
 * java.util.list - pacote
@@ -69,10 +69,10 @@ OBS.: Em caso de dúvida, utilize o ArrayList.
 * Requisitos:
     * Classe Anônima: Classe sem nome que é criada e instanciada em uma ú nica instrução. Utilizada quando a classe será 
 instanciada uma única vez e em classes pequenas que possuem poucas funções/responsabilidades. <br>
-      ![img.png](img.png)<br>
+      ![classeAnonima.png](classeAnonima.png)<br>
       * Functional Interface: Interface que possui apenas um método abstrato (SAM - Single Abstract Method) e sua 
 implementação pode ser tratada com expressões lambdas.<br>
-      ![img_1.png](img_1.png)
+      ![functionalInterface.png](functionalInterface.png)
       <br> Exemplos:
       * Comparator
       * Consumer
@@ -81,11 +81,13 @@ implementação pode ser tratada com expressões lambdas.<br>
       * Lambda: função sem declaração, isto é, sem o nome, o tipo de retorno e o modificador de acesso. 
 A ideia é que o método seja declarado no mesmo lugar em que será usado. As funções lambdas em Java tem a sintaxe
 definifa como (argumento) -> (corpo).<br>
-        ![img_3.png](img_3.png)<br>
+        ![lambdaExpression.png](lambdaExpression.png)<br>
       * Reference Method: Permite fazer uma referência a um método ou construtor de uma classe (de forma funcional) 
 e assim indicar que ele deve ser utilizado num ponto específico do código, deixando-o mais legível. Para utilizá-lo, 
 basta informar uma classe ou referência seguida do símbolo "::" e o nome do método sem os parênteses no final.<br>
-        ![img_4.png](img_4.png)<br>
-* Implementação da Streams API: Segue os princípios da programação funcional. Combinada com as expressões lambda, ela proporciona uma forma diferente de lidar com conjuntos de elementos, oferecendo ao desenvolvedor uma maenira simples e consisa de escrever o código.  
-![img_5.png](img_5.png)<br>
-  * Fonte (Collection) -> Operações Intermediárias -> Operação Terminal
+        ![referenceMethod.png](referenceMethod.png)<br>
+      * Implementação da Streams API: Segue os princípios da programação funcional. Combinada com as expressões lambda, ela 
+      proporciona uma forma diferente de lidar com conjuntos de elementos, oferecendo ao desenvolvedor uma maenira simples e 
+      consisa de escrever o código.<br>
+      ![implStreamApi.png](implStreamApi.png)<br>
+      Fonte (Collection) -> Operações Intermediárias -> Operação Terminal

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Update anotações de aula e exercícios" />
+    <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Update anotações de aula" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -341,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687823035191</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Update anotações de aula">
+      <created>1687823354471</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1687823354471</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -381,9 +388,9 @@
     <MESSAGE value="Estudos das estruturas básicas para a POO e criação dos arquivos Carro.java e Aplicacao.java para estudo de classe, atributo, método, contructor, destructor, get and set." />
     <MESSAGE value="Update organização das pastas, estudos dos conceitos de Herença e criação dos arquivos &quot;Aplicacao.java&quot; &quot;Funcionario.java&quot;, &quot;Gerente.java&quot;, &quot;Vendedor.java&quot; e &quot;Faxineiro.java&quot; para prática de herança, upcast, downcast, polimorfismo e sobrescrita." />
     <MESSAGE value="Reorganização dos arquivos existentes e criação dos arquivos &quot;Aplicacao.java&quot; &quot;OperacaoMatematica.java&quot; e &quot;Calculadora&quot;.java&quot; para prática de interface e sobrescrita de métodos." />
-    <MESSAGE value="Update anotações de aula" />
     <MESSAGE value="Update anotações de aula e exercícios" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update anotações de aula e exercícios" />
+    <MESSAGE value="Update anotações de aula" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update anotações de aula" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
