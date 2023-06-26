@@ -67,25 +67,19 @@ OBS.: Em caso de dúvida, utilize o ArrayList.
 * Objetivo da Streams API: Facilitar a manipulação de Collections
 <br> 
 * Requisitos:
-    * Classe Anônima: Classe sem nome que é criada e instanciada em uma ú nica instrução. Utilizada quando a classe será 
-instanciada uma única vez e em classes pequenas que possuem poucas funções/responsabilidades. <br>
-      ![img.png](img.png)<br>
-      * Functional Interface: Interface que possui apenas um método abstrato (SAM - Single Abstract Method) e sua 
-implementação pode ser tratada com expressões lambdas.<br>
-      ![img_1.png](img_1.png)
-      <br> Exemplos:
+    * Classe Anônima: Classe sem nome que é criada e instanciada em uma ú nica instrução. Utilizada quando a classe será instanciada uma única vez e em classes pequenas que possuem poucas funções/responsabilidades. 
+![img.png](img.png)
+    * Functional Interface: Interface que possui apenas um método abstrato (SAM - Single Abstract Method) e sua implementação pode ser tratada com expressões lambdas.
+  ![img_1.png](img_1.png)
+  <br> Exemplos:
       * Comparator
       * Consumer
       * Function
       * Predicate
-      * Lambda: função sem declaração, isto é, sem o nome, o tipo de retorno e o modificador de acesso. 
-A ideia é que o método seja declarado no mesmo lugar em que será usado. As funções lambdas em Java tem a sintaxe
-definifa como (argumento) -> (corpo).<br>
-        ![img_3.png](img_3.png)<br>
-      * Reference Method: Permite fazer uma referência a um método ou construtor de uma classe (de forma funcional) 
-e assim indicar que ele deve ser utilizado num ponto específico do código, deixando-o mais legível. Para utilizá-lo, 
-basta informar uma classe ou referência seguida do símbolo "::" e o nome do método sem os parênteses no final.<br>
-        ![img_4.png](img_4.png)<br>
+    * Lambda: função sem declaração, isto é, sem o nome, o tipo de retorno e o modificador de acesso. A ideia é que o método seja declarado no mesmo lugar em que será usado. As funções lambdas em Java tem a sintaxe definifa como (argumento) -> (corpo).
+![img_3.png](img_3.png)
+    * Reference Method: Permite fazer uma referência a um método ou construtor de uma classe (de forma funcional) e assim indicar que ele deve ser utilizado num ponto específico do código, deixando-o mais legível. Para utilizá-lo, basta informar uma classe ou referência seguida do símbolo "::" e o nome do método sem os parênteses no final.
+  ![img_4.png](img_4.png)
 * Implementação da Streams API: Segue os princípios da programação funcional. Combinada com as expressões lambda, ela proporciona uma forma diferente de lidar com conjuntos de elementos, oferecendo ao desenvolvedor uma maenira simples e consisa de escrever o código.  
-![img_5.png](img_5.png)<br>
+![img_5.png](img_5.png)
   * Fonte (Collection) -> Operações Intermediárias -> Operação Terminal
