@@ -31,6 +31,7 @@ List, Set e Map. Além de aprender sobre Stream API e como ela pode ajudar na ma
   * Hierarquia Collections:<br>
 ![hierarquia.png](hierarquia.png)
 
+
 ##### AULA 1 - LISTS
 * java.util.list - pacote
 * Características: permite elementos duplicados e garante ordem de inserção. 
