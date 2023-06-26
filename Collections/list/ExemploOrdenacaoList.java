@@ -7,19 +7,23 @@ import java.util.List;
 
 public class ExemploOrdenacaoList {
     public static void main(String[] args) {
+        //Criação de uma lista de gatos
         List<Gato> meusGatos = new ArrayList<>() {{
             add(new Gato("Jon", 18, "preto"));
-        add(new Gato("Simba", 6, "tigrado"));
-        add(new Gato("Jon", 12, "amarelo"));
+            add(new Gato("Simba", 6, "tigrado"));
+            add(new Gato("Jon", 12, "amarelo"));
         }};
 
         System.out.println("---\tOrdem de Inserção\t---");
         System.out.println(meusGatos);
 
+        // Collections.shuffle mistura a ordem da List de forma aleatória
         System.out.println("---\tOrdem Aleatória\t---");
         Collections.shuffle(meusGatos);
         System.out.println(meusGatos);
 
+        /*Para ordenar a lista por nome, é necessáio implmentar a interface Comparable e sobrescrever a interface
+        toComparable e após isso usar Collections.sort que recebe uma lista com a implementação Comparable*/
         System.out.println("---\tOrdem Natural (Nome)\t---");
         Collections.sort(meusGatos);
         System.out.println(meusGatos);
@@ -28,6 +32,7 @@ public class ExemploOrdenacaoList {
         //Collections.sort(meusGatos, new ComparatorIdade());
         meusGatos.sort(new ComparatorIdade());
         System.out.println(meusGatos);
+
 
         System.out.println("---\tOrdem cor\t---");
         meusGatos.sort(new ComparatorCor());
@@ -39,29 +44,32 @@ public class ExemploOrdenacaoList {
     }
 }
 
+//Criação da classe gato
 class Gato implements Comparable<Gato> {
     private String nome;
     private Integer idade;
     private String cor;
 
+    //Construtor do Objeto Gato.
     public Gato(String nome, Integer idade, String cor) {
         this.nome = nome;
         this.idade = idade;
         this.cor = cor;
     }
 
+    // Como os atributos da classe Gato são private, preciso do GET para utilizá-los
+
     public String getNome() {
         return nome;
     }
-
     public Integer getIdade() {
         return idade;
     }
-
     public String getCor() {
         return cor;
     }
 
+    //Necessário sobrescever o toString para seja impresso os dados da lista e não os endereços de memória.
     @Override
     public String toString() {
         return "{" +

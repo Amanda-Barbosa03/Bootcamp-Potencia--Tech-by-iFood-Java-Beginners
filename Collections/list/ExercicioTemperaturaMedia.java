@@ -39,7 +39,7 @@ e em que mês elas ocorreram (mostrar o mês por extenso: 1 – Janeiro, 2 – F
             if (temp > media) {
                 int index = temperaturas.indexOf(temp);
                 switch (index) {
-                    case 0 -> System.out.printf("1 - janeiro: %.1f\n ", temp);
+                    case 0 -> System.out.printf("1 - JANEIRO: %.1f\n", temp);
                     case 1 -> System.out.println((index + 1) + " - FEVEREIRO: " + temp + " ºC");
                     case 2 -> System.out.println((index + 1) + " - MARÇO: " + temp + " ºC");
                     case 3 -> System.out.println((index + 1) + " - ABRIL: " + temp + " ºC");
