@@ -1,0 +1,54 @@
+package Collections.streamApi;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class NumerosAleatorios {
+    public static void main(String[] args) {
+        List<String> numerosAleatorios = Arrays.asList("1", "0", "4", "1", "2", "3", "9", "9", "6", "5");
+        System.out.println("Imprima todoso os elementos dessa lista de String:");
+        numerosAleatorios.forEach(System.out::println);
+
+        System.out.println("Pegue os 5 primeiros números e coloque dentro de um Set:");
+        numerosAleatorios.stream()
+                .limit(5)
+                .collect(Collectors.toSet())
+                .forEach(System.out::println);
+
+        System.out.println("Transforme essa lista de String em uma lista de números inteiros");
+        numerosAleatorios.stream()
+                .map(Integer::parseInt)
+                .collect(Collectors.toList())
+                .forEach(System.out::println);
+
+        System.out.println("Pegue os números pares e maiores do que 2 e coloque em uma lista");
+        numerosAleatorios.stream()
+                .map(Integer::parseInt)
+                .filter(i -> i % 2 == 0 && i > 2)
+                .collect(Collectors.toList())
+                .forEach(System.out::println);
+
+        System.out.println("Mostrar a média dos números");
+        numerosAleatorios.stream()
+                .mapToInt(Integer::parseInt)
+                .average()
+                .ifPresent(System.out::println);
+
+        System.out.println("Remova os valore ímpares:");
+        List<Integer> numerosAleatoriosInteger = numerosAleatorios.stream().map(Integer::parseInt)
+                .collect(Collectors.toList());
+        numerosAleatoriosInteger.removeIf(i -> i % 2 != 0);
+        System.out.println(numerosAleatoriosInteger);
+
+        System.out.println("Ignore os 3 primeiros elementos da lista e imprima o restante");
+        System.out.println("Retirando os números repetidos da lista, quantos números ficam?");
+        System.out.println("Mostre o menor valor da lista");
+        System.out.println("Mostre o maior valor da lista");
+        System.out.println("Pegue apenas os valores ímpares e some");
+        System.out.println("Mostre a lista na ordem numérica");
+        System.out.println("Agrupe os valore simpares multiplos de 3 e de 5:");
+
+
+    }
+}

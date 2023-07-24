@@ -88,7 +88,15 @@ e assim indicar que ele deve ser utilizado num ponto específico do código, dei
 basta informar uma classe ou referência seguida do símbolo "::" e o nome do método sem os parênteses no final.<br>
         ![referenceMethod.png](referenceMethod.png)<br>
       * Implementação da Streams API: Segue os princípios da programação funcional. Combinada com as expressões lambda, ela 
-      proporciona uma forma diferente de lidar com conjuntos de elementos, oferecendo ao desenvolvedor uma maenira simples e 
+      proporciona uma forma diferente de lidar com conjuntos de elementos, oferecendo ao desenvolvedor uma maneira simples e 
       consisa de escrever o código.<br>
       ![implStreamApi.png](implStreamApi.png)<br>
-      Fonte (Collection) -> Operações Intermediárias -> Operação Terminal
+      Fonte (Collection) -> Operações Intermediárias -> Operação Terminal <br>
+        Possuem dois tipos de operações: <br>
+        - Operações intermediárias: operaçõesa que retornam um strem, podem ser encadeadas. <br>
+        - Operações terminais: não podem ser encadeadas e retonam um objeto/valor. <br>
+      IMPORTANTE: Não modifica a fonte.<br>
+PARA SABER MAIS:
+        - Implementando Collections e Streams com Java - Instrutor: Wesley Fuchter <br>
+        - Desenvolvimento Avançado em Java - Instrutor: João Paulo <br>
+        - Aprenda o que são estrutura de dados e algorítmos - Instrutor: Bruno de Campos <br>

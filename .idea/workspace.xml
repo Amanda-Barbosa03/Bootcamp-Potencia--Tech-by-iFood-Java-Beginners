@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="100b8c7b-d2bb-4fd7-9854-9257625eed96" name="Changes" comment="Update anotações de aula">
+      <change afterPath="$PROJECT_DIR$/Collections/streamApi/NumerosAleatorios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesafiosCodigo/PalindromeCheck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collections/Colletions.md" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/Colletions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/Collections/Colletions.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/Collections/Colletions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/Collections/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/Collections/img_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/Collections/img_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/Collections/img_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/Collections/img_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Potencia-Tech-by-Ifood-Java-Beginners/Collections/img_5.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +56,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -57,65 +68,13 @@
       <recent name="C:\workspace\DIO\Potencia-Tech-by-Ifood-Java-Beginners\Collections" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ListaContatos">
-    <configuration name="LancamentoDado" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.map.LancamentoDado" />
+  <component name="RunManager" selected="Application.PalindromeCheck">
+    <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="POOJava.Relacoes.Heranca.Aplicacao" />
       <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collections.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListaContatos (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.map.ListaContatos" />
-      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collections.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListaContatos (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.map.ListaContatos" />
-      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collections.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListaContatos (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.map.ListaContatos" />
-      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collections.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListaContatos (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collections.map.ListaContatos" />
-      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Collections.map.*" />
+          <option name="PATTERN" value="POOJava.Relacoes.Heranca.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,13 +95,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumerosAleatorios" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Collections.streamApi.NumerosAleatorios" />
+      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Collections.streamApi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="POOJava.Relacoes.Interface.Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="POOJava.Relacoes.Interface.Aplicacao" />
+      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="POOJava.Relacoes.Interface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PalindromeCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesafiosCodigo.PalindromeCheck" />
+      <module name="Potencia-Tech-by-Ifood-Java-Beginners" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesafiosCodigo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PalindromeCheck" />
+        <item itemvalue="Application.POOJava.Relacoes.Interface.Aplicacao" />
+        <item itemvalue="Application.Aplicacao" />
+        <item itemvalue="Application.NumerosAleatorios" />
         <item itemvalue="Application.ListaContatos" />
-        <item itemvalue="Application.ListaContatos (4)" />
-        <item itemvalue="Application.ListaContatos (3)" />
-        <item itemvalue="Application.ListaContatos (2)" />
-        <item itemvalue="Application.ListaContatos (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +370,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687823943918</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Update anotações de aula">
+      <created>1687899380627</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1687899380627</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,6 +420,22 @@
     <MESSAGE value="Update anotações de aula e exercícios" />
     <MESSAGE value="Update anotações de aula" />
     <option name="LAST_COMMIT_MESSAGE" value="Update anotações de aula" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/POOJava/Relacoes/Heranca/Aplicacao.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/POOJava/Relacoes/Interface/Aplicacao.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
